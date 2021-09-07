@@ -1,0 +1,21 @@
+@page{
+   
+    margin: 0;
+}
+@media print{
+    .dropdown{
+         display: none;
+    }
+    nav img{
+        height: 90px;
+    }
+    nav h6{
+        font-size: 24px;
+    }
+    #print-button{
+        display: none;
+    }
+    .backButton{
+         display: none;
+    }
+}
